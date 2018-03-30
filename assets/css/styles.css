@@ -1,0 +1,205 @@
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 100%;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.expertise .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.expertise h2 {
+  font-weight: 400;
+}
+.expertise .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/*** CUSTOM STYLES START HERE ***/
+
+.navbar-brand.pr-3.border-right, p.brand-name {
+    font-family: 'Great Vibes', cursive;
+    color: #17a2b8; /* IE */
+    color: var(--cyan);
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #1a1a1a;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-shadow: 3px 3px 3px #1a1a1a;
+}
+
+.hero-para {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 3px #4d4d4d;
+}
+
+.hero-special {
+    text-shadow: 3px 3px 3px #1a1a1a;
+}
+
+#hero_hire {
+    text-transform: uppercase;
+}
+
+div.carousel-inner, div.carousel-item img {
+    height: 95vh;
+}
+
+input[aria-label="Search"] {
+    height: 25px;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+div.about {
+    background-color: #ecf0f1;
+}
+
+.about h1, .projects h1, .expertise h1 {
+    text-shadow: 1px 1px 3px #17a2b8; /* IE */
+    text-shadow: 1px 1px 3px var(--cyan);
+}
+
+#call_to_action {
+    background-color: #17a2b8; /* IE */
+    background-color: var(--cyan);
+    color: #ffffff;
+    min-height: 300px;
+}
+
+#call_to_action h1 {
+    text-shadow: 3px 3px 3px #5a5a5a;
+}
+
+a {
+    color: #17a2b8; /* IE */
+    color: var(--cyan);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    color: #cccccc;
+    font-size: 12px;
+    position: relative;
+}
+
+.fa-chevron-circle-up {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.media {
+    width: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+p.brand-name {
+    font-size: 20px;
+}
+
+/*** RESPONSIVE STYLES START HERE ***/
+
+@media all and (max-width: 575px) {
+    input.searchBar {
+        width: auto;
+        margin-right: .5rem !important;
+    }
+    
+    .hero-heading {
+        font-size: 1.8rem;
+    }
+    
+    .hero-para {
+        font-size: .8rem;
+    }
+    
+    .hero-btn {
+        font-size: .7rem;
+    }
+    
+    .card, .btn-lg.btn-primary  {
+        margin-bottom: .5rem;
+    }
+    
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .hero-heading {
+        font-size: 2rem;
+    }
+    
+    .hero-para {
+        font-size: 1rem;
+    }
+    
+    .hero-btn {
+        font-size: .8rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .hero-heading {
+        font-size: 3rem;
+    }
+    
+    .hero-para {
+        font-size: 1.2rem;
+    }
+    
+    .hero-btn {
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 991px) and (max-width: 1199px) {
+    .hero-heading {
+        font-size: 3.2rem;
+    }
+    
+    .hero-para {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1565px) {
+    .hero-heading {
+        font-size: 3.5rem;
+    }
+}
