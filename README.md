@@ -15,6 +15,10 @@ This website was created using:
 * JavaScript
 * additional cool tools: Font Awesome, Google Fonts, Google Forms, etc. 
 
+## Live Demo
+
+To see the live demo, please [click here](https://patriciageo3.github.io/).
+
 ## Authors
 
 Patricia Georgescu
@@ -23,4 +27,4 @@ Patricia Georgescu
 
 Website designed, developed and coded by Patricia Georgescu 2018
 
-Images from Pexels & Unsplash.
+Images from Pexels & Unsplash & Pixabay.
