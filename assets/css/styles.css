@@ -45,6 +45,10 @@ body {
     text-shadow: 3px 3px 3px #1a1a1a;
 }
 
+input.form-control.searchBar {
+	width: 150px;
+}
+
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
