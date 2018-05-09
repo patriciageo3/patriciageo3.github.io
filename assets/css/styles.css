@@ -82,8 +82,37 @@ input[aria-label="Search"] {
     border-radius: 15px;
 }
 
+#mySkills {
+	background: #17a2b8 url("../img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#mySkills h2 {
+	color: rgba(255,255,255,.75);
+}
+
+#mySkills p {
+	cursor: pointer;
+	list-style-type: none;
+	background-color: white;
+}
+
+#mySkills p:hover {
+	transform: scale(1.3);
+	transition: transform .4s ease-in;
+}
+
+.skillsContainer {
+	max-width: 390px;
+}
+
 div.about {
     background-color: #ecf0f1;
+	padding-top: 1rem;
+}
+
+.circle {
+	width: 95%;
 }
 
 .about h1, .projects h1, .expertise h1 {
@@ -188,6 +217,17 @@ p.brand-name {
     }
 }
 
+@media all and (max-width: 991px) {
+	.circle {
+		width: 50%;
+	}
+	
+	.circle_container {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+}
+
 @media all and (min-width: 991px) and (max-width: 1199px) {
     .hero-heading {
         font-size: 3.2rem;
@@ -196,6 +236,11 @@ p.brand-name {
     .hero-para {
         font-size: 1.3rem;
     }
+	
+	.circle_container {
+		align-items: center!important;
+		
+	}
 }
 
 @media all and (min-width: 1200px) and (max-width: 1565px) {

@@ -1,7 +1,7 @@
  
 ## Synopsis
 
-This is my portofolio website template.
+This is my portfolio website template.
 
 You can get to know me by browsing this website.  
 
