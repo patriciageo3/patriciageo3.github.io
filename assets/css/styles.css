@@ -84,6 +84,7 @@ input[aria-label="Search"] {
 
 .btn {
     border-radius: 15px;
+	text-shadow: 2px 1px #808080;
 }
 
 #mySkills {
@@ -122,6 +123,22 @@ div.about {
 .about h1, .projects h1, .expertise h1 {
     text-shadow: 1px 1px 3px #17a2b8; /* IE */
     text-shadow: 1px 1px 3px var(--cyan);
+}
+
+.card-img-top {
+	flex: none;
+}
+
+.live_demo.disabled {
+	pointer-events: none; 
+	opacity: 0.3;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	text-shadow: none;
+}
+
+.parent_disabled {
+	cursor: not-allowed!important;
 }
 
 #call_to_action {
