@@ -3,10 +3,6 @@ body {
   color: #5a5a5a;
 }
 
-.carousel {
-  margin-bottom: 2rem;
-}
-
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
@@ -113,7 +109,6 @@ input[aria-label="Search"] {
 
 div.about {
     background-color: #ecf0f1;
-	padding-top: 1rem;
 }
 
 .circle {
@@ -186,6 +181,12 @@ p.brand-name {
 
 /*** RESPONSIVE STYLES START HERE ***/
 
+@media all and (max-width: 430px) {
+	.skillsContainer {
+		justify-content: center!important;
+	}
+}
+
 @media all and (max-width: 575px) {
     input.searchBar {
         width: auto;
@@ -206,8 +207,7 @@ p.brand-name {
     
     .card, .btn-lg.btn-primary  {
         margin-bottom: .5rem;
-    }
-    
+    }  
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
